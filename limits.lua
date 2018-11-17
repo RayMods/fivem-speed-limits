@@ -132,4 +132,16 @@ SpeedLimits = {
   ['1670383606'] = 45,  -- Meteor Street
   ['3307685245'] = 45,  -- Vinewood Blvd
   ['3864518464'] = 40,  -- Clinton Ave
+  ['530762033'] = 40,   -- Mirror Park Blvd
+  ['3466412178'] = 30,  -- York Street
+  ['1031438454'] = 30,  -- Tangerine Street
+  ['3291593966'] = 35,  -- Glory Way
+  ['572099687'] = 45,   -- Bridge Street
+  ['11678836'] = 35,    -- West Mirror Drive
+  ['128684945'] = 30,   -- Nikola Ave
+  ['214477542'] = 25,   -- Mirror Place
+  ['1825093742'] = 35,  -- East Mirror Drive
+  ['3619940511'] = 20,  -- Utopia Gardens
+  ['2106785626'] = 20,  -- Nikola Place
+  ['3574853634'] = 30,  -- Vinewood Park Dr
 }
