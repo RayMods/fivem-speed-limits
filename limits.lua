@@ -220,4 +220,10 @@ SpeedLimits = {
   ['302348953'] = 55,   -- Del Perro Hwy
   ['745714793'] = 45,   -- Equality Way
   ['3885181515'] = 70,  -- Great Ocean Hwy
+  ['2407263304'] = 25,  -- Procopia Promenade
+  ['4174973413'] = 25,  -- Paleto Blvd
+  ['2593489231'] = 25,  -- Procopia Dr
+  ['2315298562'] = 25,  -- Duluoz Ave
+  ['3977491644'] = 25,  -- Pyrite Ave
+  ['639402203'] = 25,   -- Cascalbel Ave
 }
