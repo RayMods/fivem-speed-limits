@@ -168,4 +168,14 @@ SpeedLimits = {
   ['1266362164'] = 30,  -- Ace Jones Dr
   ['676125051'] = 25,   -- Richman St
   ['3429009412'] = 35,  -- Kortz Dr
+  ['515762876'] = 55,   -- Tongva Dr
+  ['367290109'] = 50,   -- Banham Canyon Rd
+  ['2150774105'] = 50,  -- Buen Vino Rd
+  ['2528385171'] = 45,  -- Zancudo Rd
+  ['251791713'] = 50,   -- Zoncudo Barranca
+  ['1589412475'] = 50,  -- Mt Vinewood Dr
+  ['2228295085'] = 45,  -- West Galileo Ave
+  ['3991630820'] = 35,  -- East Galileo Ave
+  ['3553467502'] = 35,  -- Mt Haan Dr
+  ['2490358985'] = 60,  -- Mt Haan Rd
 }
