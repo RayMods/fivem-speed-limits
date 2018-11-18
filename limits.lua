@@ -196,4 +196,12 @@ SpeedLimits = {
   ['3930192872'] = 25,  -- Cat-Claw Ave
   ['609524159'] = 15,   -- Nowhere Rd
   ['4112082835'] = 25,  -- Cholla Rd
+  ['2502989037'] = 50,  -- East Joshua Road
+  ['954221212'] = 35,   -- Seaview Rd
+  ['825407909'] = 25,   -- Grapeseed Main St
+  ['2409435879'] = 35,  -- Joad Ln
+  ['2566232873'] = 35,  -- Union Rd
+  ['2247457530'] = 25,  -- O'Neil Way
+  ['1305375448'] = 35,  -- Grapeseed Ave
+  ['3300887457'] = 35,  -- Catfish View
 }
