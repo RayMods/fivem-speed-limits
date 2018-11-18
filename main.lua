@@ -3,24 +3,13 @@ Citizen.CreateThread(function()
     Citizen.Wait(0)
 
     if (IsPlayerDrivingVehicle()) then
-      local limit = Config.defaultLimit
       local playerCoords = GetEntityCoords(PlayerPedId())
       local streetHash = GetStreetNameAtCoord(table.unpack(playerCoords))
       local streetName = GetStreetNameFromHashKey(streetHash)
       local streetLimit = SpeedLimits[tostring(streetHash)]
 
       if (streetLimit) then
-        limit = streetLimit
-      end
-
-      SetTextCentre(true)
-      renderText(streetName .. ' - ' .. streetHash, { 0.09, 0.7 }, nil, 4, { 0, 0.4 })
-
-      SetTextCentre(true)
-      if (streetLimit) then
-        renderText(limit .. ' MPH', { 0.09, 0.675 })
-      else
-        renderText('LIMIT NOT FOUND', { 0.09, 0.675 })
+        RenderHud(streetLimit)
       end
     end
   end
@@ -41,25 +30,31 @@ function IsPlayerDrivingVehicle()
   return isInVehicle and isDriver
 end
 
-function renderText(text, pos, color, font, size)
-  if (not color) then
-    color = { 255, 255, 255, 255 }
-  end
-  if (not font) then
-    font = 2
-  end
-  if (not size) then
-    size = { 0, 0.5 }
-  end
-
-  SetTextFont(font)
-  SetTextProportional(0)
-  SetTextScale(table.unpack(size))
-  SetTextColour(table.unpack(color))
-  SetTextDropshadow(0, 0, 0, 0, 255)
-  SetTextEdge(1, 0, 0, 0, 255)
-  SetTextOutline()
+function RenderHud(limit)
+  SetTextCentre(true)
+  SetTextColour(0,0,0,255)
+  SetTextFont(2)
+  SetTextScale(0, 0.275)
   SetTextEntry("STRING")
-  AddTextComponentString(text)
-  DrawText(table.unpack(pos))
+  AddTextComponentString("SPEED")
+  DrawText(0.145, 0.921)
+
+  SetTextCentre(true)
+  SetTextColour(0, 0, 0, 255)
+  SetTextFont(2)
+  SetTextScale(0, 0.6)
+  SetTextEntry("STRING")
+  AddTextComponentString(limit)
+  DrawText(0.145, 0.9315)
+
+  DrawRect(
+    0.145,
+    0.945,
+    0.021,
+    0.0425,
+    255,
+    255,
+    255,
+    150
+  )
 end
