@@ -204,4 +204,12 @@ SpeedLimits = {
   ['2247457530'] = 25,  -- O'Neil Way
   ['1305375448'] = 35,  -- Grapeseed Ave
   ['3300887457'] = 35,  -- Catfish View
+  ['1224796925'] = 35,  -- Chianski Passage
+  ['648011493'] = 30,   -- North Calafia Way
+  ['3077445391'] = 30,  -- Calafia Rd
+  ['1520509920'] = 25,  -- Cassidy Trail
+  ['4131488540'] = 50,  -- Fort Zancudo Approach Rd
+  ['127506487'] = 60,   -- Route 68
+  ['647252758'] = 25,   -- Barbareno Rd
+  ['3442834958'] = 25,  -- Ineseno Rd
 }
