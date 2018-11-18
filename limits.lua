@@ -212,4 +212,12 @@ SpeedLimits = {
   ['127506487'] = 60,   -- Route 68
   ['647252758'] = 25,   -- Barbareno Rd
   ['3442834958'] = 25,  -- Ineseno Rd
+  ['2600585507'] = 65,  -- Senora Fwy
+  ['4124992785'] = 60,  -- Palomino Fwy
+  ['2792758691'] = 50,  -- Sustancia Rd
+  ['3024916084'] = 50,  -- El Burro Blvd
+  ['3349756848'] = 50,  -- Senora Way
+  ['302348953'] = 55,   -- Del Perro Hwy
+  ['745714793'] = 45,   -- Equality Way
+  ['3885181515'] = 70,  -- Great Ocean Hwy
 }
